@@ -69,8 +69,7 @@ def start(option):
             g.setValueCordByIndex(position - 1, option)
             if g.getWinner() != False :
                 g.printTable()
-                input1
-                ("{} Venceu".format(g.getWinner()))
+                input("{} Venceu".format(g.getWinner()))
                 break
             if g.returnDraw():
                 g.printTable()
